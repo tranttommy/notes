@@ -149,7 +149,7 @@ This is the situation that we have seen/are seeing with the filter photo gallery
 ```javascript
  1 const images = [];
  2 function loadFilter(callback) {
- 3     const filter: {};
+ 3     const filter = {};
  4     callback(filter);
  5 }
  6 function filterImages(obj, arr) {
